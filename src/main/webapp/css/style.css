@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9f2d9;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav,
+.admin-bar {
+    background-color: #006400;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.site-nav a,
+.admin-bar a {
+    color: yellow;
+    margin: 0 8px;
+}
+
+.nav-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+h1 {
+    color: #006400;
+    text-align: center;
+}
+
+h2 {
+    color: #006400;
+}
+
+.hero,
+.narrow,
+.quiz-wrap,
+.admin-main,
+.section,
+.about-copy {
+    width: 850px;
+    max-width: 95%;
+    margin: 15px auto;
+    background-color: white;
+    border: 2px solid #006400;
+    padding: 15px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid #999;
+}
+
+.brand-mark {
+    font-size: 28px;
+    font-weight: bold;
+    color: #006400;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.lede,
+.section-note,
+.how-line,
+.kicker {
+    text-align: center;
+}
+
+.btn,
+.btn-gold,
+.btn-green {
+    background-color: #228B22;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #006400;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-gold {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.category-list {
+    margin-left: 20px;
+}
+
+.category-list span {
+    font-weight: bold;
+}
+
+.category-list em {
+    font-style: normal;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.stack-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+select,
+textarea {
+    width: 95%;
+    padding: 6px;
+    border: 1px solid #666;
+}
+
+.check {
+    font-weight: normal;
+}
+
+.flash-error {
+    background-color: #ffcccc;
+    border: 1px solid red;
+    padding: 8px;
+    color: red;
+}
+
+.question {
+    border: 1px solid #999;
+    background-color: #ffffcc;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.choice {
+    display: block;
+    margin: 4px 0;
+}
+
+.score-line {
+    font-size: 40px;
+    font-weight: bold;
+    color: #006400;
+    text-align: center;
+}
+
+.result-stats {
+    width: 100%;
+}
+
+.result-stats div {
+    margin: 6px 0;
+}
+
+.result-stats dt {
+    font-weight: bold;
+    display: inline;
+}
+
+.result-stats dd {
+    display: inline;
+    margin-left: 6px;
+}
+
+.review-list {
+    padding-left: 20px;
+}
+
+.is-right .status {
+    color: green;
+    font-weight: bold;
+}
+
+.is-wrong .status {
+    color: red;
+    font-weight: bold;
+}
+
+.site-foot {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.stat-row {
+    list-style: none;
+    padding: 0;
+}
+
+.stat-row li {
+    background-color: #ffffcc;
+    border: 1px solid #006400;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.stat-row a {
+    color: #006400;
+}
+
+.data {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.data th {
+    background-color: #006400;
+    color: white;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+.data td {
+    border: 1px solid black;
+    padding: 6px;
+    vertical-align: top;
+}
+
+.actions form {
+    display: inline;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter-row {
+    margin: 10px 0;
+}
+
+.filter-row input,
+.filter-row select {
+    width: auto;
+    margin-right: 6px;
+}
+
+.source-list a {
+    color: blue;
+}
+
+.after-links {
+    margin-top: 20px;
+}
+
+.admin-title-row {
+    margin-bottom: 10px;
+}
