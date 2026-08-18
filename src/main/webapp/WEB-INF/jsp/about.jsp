@@ -7,9 +7,6 @@
 
 <div class="about-copy">
     <h1>About Tangail District</h1>
-    <img class="hero-image"
-         src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=60"
-         alt="River in Bangladesh">
     <p>Tangail is a district of Bangladesh in the Dhaka Division.</p>
 
     <h2>Geography</h2>
