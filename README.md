@@ -190,7 +190,7 @@ Default admin login (from `db.properties`):
 ## Project structure
 
 ```
-swaccha_project/
+QuizGame_project/
 ├── pom.xml
 ├── README.md
 ├── database/tangail_quiz_db.sql
