@@ -2,7 +2,7 @@
 
 A Servlet, JSP, and JDBC CRUD application.
 
-Players answer **10 random unique questions** from a bank of 20 questions about Tangail District, Bangladesh.
+Players answer **10 random unique questions** from a bank of a questions about Tangail District, Bangladesh.
 
 The homepage title is:
 
@@ -33,7 +33,7 @@ Topics:
 
 This project uses a simple MVC split. If you are new to Java web apps, read the files in this order:
 
-1. `database/tangail_quiz_db.sql` — tables and the 20 questions
+1. `database/tangail_quiz_db.sql` — tables and the questions
 2. `src/main/java/com/tangailquiz/model/` — plain Java objects (one object = one table row)
 3. `src/main/java/com/tangailquiz/dao/DBConnection.java` — opens a MySQL connection
 4. `src/main/java/com/tangailquiz/dao/QuestionDAO.java` — SQL for questions
@@ -54,7 +54,7 @@ There is no Spring, no Hibernate, and no React.
 
 ## Features
 
-- Random 10-question quiz from 20 seeded questions
+- Random 10-question quiz from seeded questions
 - Player, attempt, and answer history in MySQL
 - Question CRUD with search and category/difficulty filters
 - Activate/deactivate questions (inactive questions are skipped)
@@ -247,9 +247,17 @@ Messages:
 Add screenshots here after you run the app:
 
 - Home
+  <img width="958" height="439" alt="QuizGame_Home" src="https://github.com/user-attachments/assets/5176b074-fbeb-4a48-a809-36bf3e243909" />
+
 - Quiz
+  <img width="960" height="441" alt="Question" src="https://github.com/user-attachments/assets/d3e3d90d-ec9e-4633-b522-cd56b5477148" />
+
 - Result
+  <img width="959" height="441" alt="Result" src="https://github.com/user-attachments/assets/e6b9dfa0-fb21-4abd-b45a-d459e76fe1a7" />
+
 - Admin questions
+  <img width="960" height="439" alt="Admin_Ques" src="https://github.com/user-attachments/assets/dc690261-4e7b-4b53-8992-a710494a4052" />
+
 
 ---
 
