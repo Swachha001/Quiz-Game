@@ -244,8 +244,6 @@ Messages:
 
 ## Screenshots
 
-Add screenshots here after you run the app:
-
 - Home
   <img width="958" height="439" alt="QuizGame_Home" src="https://github.com/user-attachments/assets/5176b074-fbeb-4a48-a809-36bf3e243909" />
 
